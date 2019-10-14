@@ -1,0 +1,19 @@
+{
+  "name": "co-human-validation-automaton",
+  "version": "0.0.1",
+  "description": "Human validation automaton of decisions stored in PostgreSQL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conditor-project/co-human-validation-automaton.git"
+  },
+  "author": "",
+  "license": "CeCILL",
+  "bugs": {
+    "url": "https://github.com/conditor-project/co-human-validation-automaton/issues"
+  },
+  "homepage": "https://github.com/conditor-project/co-human-validation-automaton#readme"
+}
