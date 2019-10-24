@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/conditor-project/co-human-validation-automaton/issues"
   },
-  "homepage": "https://github.com/conditor-project/co-human-validation-automaton#readme"
+  "homepage": "https://github.com/conditor-project/co-human-validation-automaton#readme",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "js-sha1": "^0.6.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "mocha": "^6.2.1"
+  }
 }
