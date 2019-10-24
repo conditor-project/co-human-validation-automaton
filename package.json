@@ -4,7 +4,7 @@
   "description": "Human validation automaton of decisions stored in PostgreSQL ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
     "sequelize": "^5.19.6"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "faker": "^4.1.0",
-    "mocha": "^6.2.1"
+    "mocha": "^6.2.2",
+    "umzug": "^2.2.0"
   }
 }

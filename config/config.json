@@ -7,9 +7,11 @@
     "dialect": "postgres"
   },
   "test": {
-    "database": "database_test",
-    "dialect": "sqlite",
-    "storage": "test.db",
+    "username": "moi",
+    "password": "mysecretpassword",
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
     "logging": false
   },
   "production": {
